@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My GoogleMap</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="imput">
+      <label>Enter Latitude</label><input type="text" id="lat" value="28.89">
+      <label>Enter Longitude</label><input type="text" id="long" value="77.54">
+      
+    </div>
+    <button type="button" id="sub">Submit</button>
+    <script src="/script.js">     
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoB-Sukgoo_S425vIvGNnjQWUAl1zwhxg&callback=initMap"
+    async defer></script>                                                                     <!-- call back=initmap means we have to create a fucntion
+                                                                                                    named as 'initmap'-->
+  </body>
+</html>
